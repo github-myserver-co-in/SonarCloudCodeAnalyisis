@@ -17,5 +17,5 @@ jobs:
         with:
           args: >
               -Dsonar.organization=github.myserver.co.in
-              -Dsonar.projectKey=SonarCloudCodeAnalyisis
-              -Dsonar.python.coverage.reportPaths=coverage.xml
+              -Dsonar.projectKey=github-myserver-co-in
+              #-Dsonar.python.coverage.reportPaths=coverage.xml
