@@ -16,6 +16,6 @@ jobs:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-              -Dsonar.organization=github.myserver.co.in
-              -Dsonar.projectKey=github-myserver-co-in
+              -Dsonar.organization=github-myserver-co-in
+              -Dsonar.projectKey=SonarCloudCodeAnalyisis
               -Dsonar.python.coverage.reportPaths=coverage.xml
