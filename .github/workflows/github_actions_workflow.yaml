@@ -13,6 +13,7 @@ jobs:
         uses: sonarsource/sonarcloud-github-action@master
         env:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+            GIT_TOKEN: ${{ secrets.GIT_PAT }}
         with:
           args: >
               -Dsonar.organization=github-myserver-co-in
