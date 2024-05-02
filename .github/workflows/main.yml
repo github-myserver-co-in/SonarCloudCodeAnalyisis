@@ -19,3 +19,4 @@ jobs:
               -Dsonar.organization=github-myserver-co-in
               -Dsonar.projectKey=SonarCloudCodeAnalyisis
               -Dsonar.python.coverage.reportPaths=coverage.xml
+              -Dsonar.verbose=true
